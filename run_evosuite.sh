@@ -8,7 +8,7 @@ ZIP=$2
 EVOSUITE='java -jar ../../../evosuite.jar'
 
 # unzip zip file into ReplicationProjects directory
-# unzip 'ReplicationProjects/'$ZIP -d 'ReplicationProjects/'$DIR
+unzip 'ReplicationProjects/'$ZIP -d 'ReplicationProjects/'$DIR
 
 # move into unzipped project's parent directory
 cd 'ReplicationProjects/'$DIR
